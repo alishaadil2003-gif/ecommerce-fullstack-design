@@ -7,7 +7,7 @@ import { getAuth } from "firebase/auth";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCvHF4AHivT_sjVCf_2WccfrYPYbLuO6jw",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "eshop-a86a7.firebaseapp.com",
   projectId: "eshop-a86a7",
   storageBucket: "eshop-a86a7.firebasestorage.app",
